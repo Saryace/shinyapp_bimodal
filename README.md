@@ -1,10 +1,21 @@
 ## :computer: Work-in-progress :computer:
+
 Bimodal PTF for estimation of SWRC. For running an interactive Shiny app run in your R console:
 
-`install.package("shiny") install.package("devtools")`
-`install.package("tidymodels") install.package("ranger")`
+```R
+# Install the following packages:
+install.package("shiny")
+install.package("devtools")
+install.package("tidymodels")
+install.package("ranger")
 
+# Easiest way is to use runGitHub() function
 `shiny::runGitHub("shinyapp_bimodal", "Saryace")`
+
+# Also, you can run the tar or zip directly
+runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.tar.gz")
+runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.zip")
+```
 
 * Colaboration? Comments? suggestions are welcome at seaceved@uc.cl.
 
