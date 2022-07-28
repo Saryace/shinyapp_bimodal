@@ -1,6 +1,10 @@
 ## :computer: Work-in-progress :computer:
 
-Bimodal PTF for estimation of SWRC. For running an interactive Shiny app run in your R console:
+### Bimodal PTF for estimation of SWRC.
+
+![](screenshot.png)
+
+### For running an interactive Shiny app run in your R console:
 
 ```R
 # Install the following packages:
