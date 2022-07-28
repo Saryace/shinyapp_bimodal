@@ -74,7 +74,7 @@ calcularAlfa <-  function(arena, arcilla, om, limo, bd) {
 }
 
 calcularAlfa2 <- function(arena, arcilla, om, limo, bd) {
-  return(as.numeric(predict(
+  return(as.numeric(abs(predict(
     alfa2_model,
     new_data = data.frame(
       BD = bd,
@@ -82,12 +82,12 @@ calcularAlfa2 <- function(arena, arcilla, om, limo, bd) {
       Silt = limo,
       Clay = arcilla,
       OM = om
-    )
+    ))
   )))
 }
 
 calcularN <- function(arena, arcilla, om, limo, bd) {
-  return(as.numeric(predict(
+  return(as.numeric(abs(predict(
     n1_model,
     new_data = data.frame(
       BD = bd,
@@ -95,7 +95,7 @@ calcularN <- function(arena, arcilla, om, limo, bd) {
       Silt = limo,
       Clay = arcilla,
       OM = om
-    )
+    ))
   )))
 }
 
