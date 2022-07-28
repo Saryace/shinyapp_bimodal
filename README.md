@@ -13,8 +13,8 @@ install.package("ranger")
 `shiny::runGitHub("shinyapp_bimodal", "Saryace")`
 
 # Also, you can run the tar or zip directly
-runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.tar.gz")
-runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.zip")
+shiny::runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.tar.gz")
+shiny::runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.zip")
 ```
 
 * Colaboration? Comments? suggestions are welcome at seaceved@uc.cl.
