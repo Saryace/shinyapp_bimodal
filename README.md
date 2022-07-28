@@ -2,8 +2,7 @@
 Bimodal PTF for estimation of SWRC. For running an interactive Shiny app run in your R console:
 
 `install.package("shiny") install.package("devtools")`
-`install.package("ranger")`
-`install.package("tidymodels")`
+`install.package("tidymodels") install.package("ranger")`
 
 `shiny::runGitHub("shinyapp_bimodal", "Saryace")`
 
