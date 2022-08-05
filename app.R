@@ -284,8 +284,8 @@ ui <- shinyUI(fluidPage(
         'bd',
         'Bulk Density (g/cm3)',
         min = 0.9,
-        max = 2,
-        value = 1.3,
+        max = 1.75,
+        value = 1.2,
         step = 0.1
       ),
       hr(),
