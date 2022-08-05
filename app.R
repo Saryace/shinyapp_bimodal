@@ -61,7 +61,7 @@ calcularThs <-  function(arena, arcilla, om, limo, bd) {
 
 
 calcularAlfa <-  function(arena, arcilla, om, limo, bd) {
-  return(as.numeric(abs(predict(
+  return(as.numeric(predict(
     alfa1_model,
     new_data = data.frame(
       BD = bd,
@@ -69,12 +69,12 @@ calcularAlfa <-  function(arena, arcilla, om, limo, bd) {
       Silt = limo,
       Clay = arcilla,
       OM = om
-    ))
+    )
   )))
 }
 
 calcularAlfa2 <- function(arena, arcilla, om, limo, bd) {
-  return(as.numeric(abs(predict(
+  return(as.numeric(predict(
     alfa2_model,
     new_data = data.frame(
       BD = bd,
@@ -82,7 +82,7 @@ calcularAlfa2 <- function(arena, arcilla, om, limo, bd) {
       Silt = limo,
       Clay = arcilla,
       OM = om
-    ))
+    )
   )))
 }
 
@@ -264,7 +264,7 @@ ui <- shinyUI(fluidPage(
       sliderInput(
         "sd",
         "Sand (%): ",
-        min = 0,
+        min = 20,
         max = 100,
         value = 33,
         step = 1
