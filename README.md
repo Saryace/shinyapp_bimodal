@@ -8,13 +8,13 @@
 
 ```R
 # Install the following packages:
-install.package("shiny")
-install.package("devtools")
-install.package("tidymodels")
-install.package("ranger")
+install.packages("shiny")
+install.packages("devtools")
+install.packages("tidymodels")
+install.packages("ranger")
 
 # Easiest way is to use runGitHub() function
-`shiny::runGitHub("shinyapp_bimodal", "Saryace")`
+shiny::runGitHub("shinyapp_bimodal", "Saryace")
 
 # Also, you can run the tar or zip directly
 shiny::runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.tar.gz")
