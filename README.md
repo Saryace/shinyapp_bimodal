@@ -4,7 +4,7 @@
 
 ![](screenshot.png)
 
-![](shiny.mov)
+![](shiny.gif)
 
 ### For running an interactive Shiny app run in your R console:
 
