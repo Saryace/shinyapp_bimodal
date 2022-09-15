@@ -4,6 +4,8 @@
 
 ![](screenshot.png)
 
+![](shiny.mov)
+
 ### For running an interactive Shiny app run in your R console:
 
 ```R
@@ -18,9 +20,9 @@ install.packages("ranger")
 # Second: 
 # Libraries needed:
 library(shiny)
-ibrary(devtools)
-ibrary("tidymodels")
-ibrary(ranger)
+library(devtools)
+library("tidymodels")
+library(ranger)
 # Download and run the Shinyapp
 shiny::runGitHub("shinyapp_bimodal", "Saryace")
 
