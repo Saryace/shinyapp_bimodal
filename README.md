@@ -21,7 +21,7 @@ install.packages("ranger")
 # Libraries needed:
 library(shiny)
 library(devtools)
-library("tidymodels")
+library(tidymodels)
 library(ranger)
 # Download and run the Shinyapp
 shiny::runGitHub("shinyapp_bimodal", "Saryace")
