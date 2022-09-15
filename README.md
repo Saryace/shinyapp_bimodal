@@ -7,16 +7,24 @@
 ### For running an interactive Shiny app run in your R console:
 
 ```R
+
+# First: 
 # Install the following packages:
 install.packages("shiny")
 install.packages("devtools")
 install.packages("tidymodels")
 install.packages("ranger")
 
-# Easiest way is to use runGitHub() function
+# Second: 
+# Libraries needed:
+library(shiny)
+ibrary(devtools)
+ibrary("tidymodels")
+ibrary(ranger)
+# Download and run the Shinyapp
 shiny::runGitHub("shinyapp_bimodal", "Saryace")
 
-# Also, you can run the tar or zip directly
+# Or, you can run the tar or zip directly
 shiny::runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.tar.gz")
 shiny::runUrl("https://github.com/Saryace/shinyapp_bimodal/archive/master.zip")
 ```
